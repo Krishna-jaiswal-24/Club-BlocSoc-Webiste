@@ -15,6 +15,7 @@ const Hero = () => {
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                             <button type="button" class="btn btn-info btn-lg px-4 me-md-2">UpComing Events</button>
                             <button type="button" class="btn btn-outline-info btn-lg px-4">Explore BlocSoc</button>
+
                         </div>
                     </div>
                 </div>
