@@ -8,11 +8,11 @@ import Blogs from './Pgaes/Blogs Page/Blogs';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <Blogs />
-      <Footer /> */}
-      <Team />
+      <Footer />
+      {/* <Team /> */}
       
     </div>
   );
