@@ -11,7 +11,12 @@ const Blog = () => {
                         <p class="card-text text-white">This is a blog that covers this and that.</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
+<<<<<<< HEAD
                                 <button type="button" class="btn btn-sm text-primary">Writer</button>
+=======
+                                <button type="button" class="btn btn-sm text-primary outline-nonegit">Writer</button>
+
+>>>>>>> fd13b9fd7a8e353d247a4bef056213619a0b6c4d
                             </div>
                         </div>
                     </div>
