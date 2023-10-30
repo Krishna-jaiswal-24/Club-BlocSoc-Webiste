@@ -3,12 +3,13 @@ import Blog from './Blog'
 const Blogs = () => {
     return (
         <div>
+            <div className='display-3 text-white text-center pt-5 fw-bold'><span className='text-info'>Bloc</span>Soc Blogs</div>
 
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="album py-5">
-                            <div class="container">
+                            <div class="container pt-5">
 
                                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                                     <Blog />
