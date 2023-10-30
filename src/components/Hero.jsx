@@ -43,7 +43,7 @@ const Hero = () => {
           </div>
           <div className="col-lg-2 col-6 text-white text-left">Decentralised IDs Registered.</div>
 
-          <div className="col-lg-1 col-6 text-right">
+          <div className="col-lg-1 col-6">
             <div className="h1 text-white">20+</div>
           </div>
           <div className="col-lg-2 col-6 text-white text-left">
