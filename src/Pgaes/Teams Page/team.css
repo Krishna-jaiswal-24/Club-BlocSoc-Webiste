@@ -1,0 +1,5 @@
+.custom-bg {
+    background: rgb(46,46,46);
+    background: linear-gradient(124deg, rgba(46,46,46,1) 0%, rgba(2,2,2,1) 100%);
+  border: 1px solid #686868;
+}
