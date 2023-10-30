@@ -18,7 +18,7 @@ const Blogs = () => {
 
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                     <div class="carousel-item">
                         <div class="album py-5">
