@@ -50,7 +50,7 @@ const Team = () => {
             <div class="custom-bg p-3 rounded mt-3 text-white">
               <h5>Never Miss an Update</h5>
               <p class="fs-6">
-                Get your email signed in so you miss and update.
+                Connect us on our discord
               </p>
               <a
                 class="btn btn-sm btn-primary"
