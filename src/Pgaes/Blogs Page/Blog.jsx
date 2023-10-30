@@ -12,6 +12,7 @@ const Blog = () => {
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-sm text-primary outline-nonegit">Writer</button>
+
                             </div>
                         </div>
                     </div>
