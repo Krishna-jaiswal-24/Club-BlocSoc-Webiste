@@ -9,14 +9,14 @@ const Team = () => {
       <div class="container my-5">
         <div class="p-5 text-center bg-body-dark rounded-3 text-white">
           <div><img src={Logo} height={50}/></div>
-          <h1 class="text-body-white pt-5">Aim</h1>
+          <h1 class="display-4 text-body-white font-weight-bolder pt-5"><b>Aim</b></h1>
           <p class="col-lg-8 mx-auto fs-5 text-white">
             Our club at IIIT Dharwad, is to foster a thriving community of
             students passionate about blockchain technology, promoting
             education, research, industry connections and social impact in the
             field.
           </p>
-          <h1 class="text-body-white">Vision</h1>
+          <h1 class="display-4 text-body-white font-weight-bolder"><b>Vision</b></h1>
           <p class="col-lg-8 mx-auto fs-5 text-white">
             To become a leading hub for blockchain innovation, knowledge
             sharing, and collaboration at IIIT Dharwad, empowering students to
