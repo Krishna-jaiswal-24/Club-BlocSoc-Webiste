@@ -1,4 +1,5 @@
 import React from "react";
+import "./hero.css";
 import HeroImg from "../assests/BlocSoc-Transparent.png";
 const Hero = () => {
   return (
@@ -32,6 +33,28 @@ const Hero = () => {
               </button>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="container custom-bg-2 p-4">
+        <div className="row justify-content-center">
+
+          <div className="col-lg-1 col-6 text-right">
+            <div className="h1 text-white">200+</div>
+          </div>
+          <div className="col-lg-2 col-6 text-white text-left">Decentralised IDs Registered.</div>
+
+          <div className="col-lg-1 col-6 text-right">
+            <div className="h1 text-white">20+</div>
+          </div>
+          <div className="col-lg-2 col-6 text-white text-left">
+            Blockchain<br></br>
+            Projects.
+          </div>
+
+          <div className="col-lg-1 col-6 text-right">
+            <div className="h1 text-white">30+</div>
+          </div>
+          <div className="col-lg-2 col-6 text-white">Web-3 & Blockchain Blogs.</div>
         </div>
       </div>
     </div>
