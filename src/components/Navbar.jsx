@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../assests/Bloc.png'
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -11,9 +12,9 @@ const Navbar = () => {
       </a>
 
       <ul class="nav nav-pills ">
-        <li class="nav-item"><a href="#" class="nav-link icon-link-hover text-white" aria-current="page">Home</a></li>
+        <li class="nav-item"><Link to="/" className="nav-link icon-link-hover text-white" aria-current="page">Home</Link></li>
         <li class="nav-item"><a href="#" class="nav-link text-white">Projects</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-white">Team</a></li>
+        <li class="nav-item"><Link to="/team" className="nav-link text-white">Team</Link></li>
         <li class="nav-item"><a href="#" class="nav-link text-white">Blogs</a></li>
 
       </ul>
