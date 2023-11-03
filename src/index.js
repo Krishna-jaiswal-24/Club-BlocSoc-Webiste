@@ -9,7 +9,7 @@ import './index.css';
 import App from './App';
 import Team from './Pgaes/Teams Page/Team';
 import BlogsPage from './Pgaes/Blogs Page/BlogsPage';
-
+import Events from './Pgaes/Events Page/Events'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,6 +21,9 @@ const router = createBrowserRouter([
   },{
     path:"/blogs",
     element:<BlogsPage />
+  },{
+    path:"/events",
+    element:<Events />
   }
 ]);
 
