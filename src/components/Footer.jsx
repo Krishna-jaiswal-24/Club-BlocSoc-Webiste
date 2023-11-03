@@ -1,7 +1,7 @@
 import React from "react";
 import HeroImg from "../assests/BlocSoc-Transparent.png";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <div>
       <div class="container">
@@ -74,3 +74,5 @@ export const Footer = () => {
     </div>
   );
 };
+
+export default Footer;

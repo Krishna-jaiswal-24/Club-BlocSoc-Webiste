@@ -1,15 +1,16 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
-import Blogs from './Blogs'
 import Footer from '../../components/Footer'
-const BlogsPage = () => {
+const Events = () => {
   return (
     <div>
         <Navbar />
-        <Blogs />
+        <div>
+          
+        </div>
         <Footer />
     </div>
   )
 }
 
-export default BlogsPage
+export default Events

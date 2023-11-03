@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer } from "../../components/Footer";
+import Footer from '../../components/Footer'
 import Navbar from "../../components/Navbar";
 import Logo from "../../assests/Bloc.png";
 import "./team.css";
