@@ -45,7 +45,18 @@ const Team = () => {
           </h1>
         </div>
       </div>
-      <div className="container d-flex">
+      <div className="container d-flex flex-wrap p-6">
+        <Profiles />
+        <Profiles />
+        <Profiles />
+        <Profiles />
+        <Profiles />
+        <Profiles />
+        <Profiles />
+        <Profiles />
+        <Profiles />
+        <Profiles />
+        <Profiles />
         <Profiles />
         <Profiles />
         <Profiles />
