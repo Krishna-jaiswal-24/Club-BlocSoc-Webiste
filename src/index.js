@@ -8,7 +8,7 @@ import {
 import './index.css';
 import App from './App';
 import Team from './Pgaes/Teams Page/Team';
-import Blogs from './Pgaes/Blogs Page/Blogs';
+import BlogsPage from './Pgaes/Blogs Page/BlogsPage';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     element:<Team />
   },{
     path:"/blogs",
-    element:<Blogs />
+    element:<BlogsPage />
   }
 ]);
 
