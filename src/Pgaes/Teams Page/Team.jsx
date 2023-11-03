@@ -3,6 +3,8 @@ import Footer from '../../components/Footer'
 import Navbar from "../../components/Navbar";
 import Logo from "../../assests/Bloc.png";
 import "./team.css";
+import Profiles from "./Profiles";
+
 
 const Team = () => {
   return (
@@ -43,7 +45,12 @@ const Team = () => {
           </h1>
         </div>
       </div>
-
+      <div className="container d-flex">
+        <Profiles />
+        <Profiles />
+        <Profiles />
+        <Profiles />
+      </div>
       <Footer />
     </div>
   );
