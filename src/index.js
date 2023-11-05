@@ -10,6 +10,7 @@ import App from './App';
 import Team from './Pgaes/Teams Page/Team';
 import BlogsPage from './Pgaes/Blogs Page/BlogsPage';
 import Events from './Pgaes/Events Page/Events'
+import Register from './Pgaes/Register/register.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,6 +25,9 @@ const router = createBrowserRouter([
   },{
     path:"/events",
     element:<Events />
+  },{
+    path:"/register",
+    element:<Register />
   }
 ]);
 
