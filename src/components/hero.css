@@ -7,3 +7,9 @@
     rgba(18, 19, 21, 1) 100%
   );
 }
+
+
+.card-hover:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
