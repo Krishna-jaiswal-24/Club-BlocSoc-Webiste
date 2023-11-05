@@ -14,7 +14,7 @@ const Footer = () => {
               </p>
               <a
                 className="btn btn-sm btn-primary"
-                href="/docs/5.3/components/navbar/"
+                href="https://discord.gg/MrGNHctx"
                 role="button"
               >
                 <svg
