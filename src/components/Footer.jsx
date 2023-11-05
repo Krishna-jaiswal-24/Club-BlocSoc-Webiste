@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-5 col-sm-8 col-11">
             <div className="custom-bg p-3 rounded mt-3 text-white">
-              <h5>Never Miss an Update</h5>
+              <h5 className="text-primary">Never Miss an Update</h5>
               <p className="fs-6 mb-2">
                 Connect us on our Social Handles for further Updates from the
                 club.
