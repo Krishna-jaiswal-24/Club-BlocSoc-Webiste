@@ -1,4 +1,4 @@
-let i=0
+
 
 const teamData=[{
     imageSrc: "https://media.licdn.com/dms/image/C5616AQEinfrHvDdSKQ/profile-displaybackgroundimage-shrink_350_1400/0/1668366897738?e=1704931200&v=beta&t=uWqiyxiYBcqn9KAi-TXohdm4pQX0mym_dyjbzoEQxKw",
