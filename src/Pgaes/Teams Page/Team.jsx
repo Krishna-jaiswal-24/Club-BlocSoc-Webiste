@@ -1,16 +1,15 @@
 import React from "react";
-import Footer from '../../components/Footer'
+import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import Logo from "../../assests/Bloc.png";
 import "./team.css";
 import Profiles from "./Profiles";
 
-
 const Team = () => {
   return (
     <div>
       <Navbar />
-      <div class="container my-5">
+      <div class="container mt-5 py-0">
         <div class="p-5 text-center bg-body-dark rounded-3 text-white">
           <div>
             <img src={Logo} height={50} />
@@ -40,12 +39,12 @@ const Team = () => {
             <span className="text-info">positive impact</span> on society
             through blockchain technology.
           </p>
-          <h1 class="display-4 text-body-white font-weight-bolder">
+          <h1 class="display-4 text-body-white mb-0 pt-5 pb-0 font-weight-bolder">
             <b>Team</b>
           </h1>
         </div>
       </div>
-      <div className="container d-flex flex-wrap p-6 justify-content-center">
+      <div className="container d-flex flex-wrap p-6 pt-0 my-4 justify-content-center">
         <Profiles />
         <Profiles />
         <Profiles />

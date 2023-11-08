@@ -95,7 +95,6 @@ const Footer = () => {
             >
               <img src={HeroImg} height={150} />
             </a>
-            <p className="text-white text-sm-left">© Made with love BlocSoc</p>
           </div>
 
           <div className="col mb-3"></div>
