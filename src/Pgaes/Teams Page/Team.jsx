@@ -15,7 +15,7 @@ const Team = () => {
           <div>
             <img src={Logo} height={50} />
           </div>
-          <h1 class="display-4 text-body-white font-weight-bolder pt-5">
+          <h1 id="aim" class="display-4 text-body-white font-weight-bolder pt-5">
             <b>Aim</b>
           </h1>
           <p class="col-lg-8 mx-auto fs-5 text-white">
@@ -27,7 +27,7 @@ const Team = () => {
             <span className="text-info">industry connections</span> and{" "}
             <span className="text-info">social impact</span> in the field.
           </p>
-          <h1 class="display-4 text-body-white font-weight-bolder">
+          <h1 id="vision" class="display-4 text-body-white font-weight-bolder">
             <b>Vision</b>
           </h1>
           <p class="col-lg-8 mx-auto fs-5 text-white">

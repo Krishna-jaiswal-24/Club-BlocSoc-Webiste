@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithEmailAndPassword , createUserWithEmailAndPassword } from 'firebase/auth';
+import { Link } from "react-router-dom";
 
 // Your Firebase configuration object
 const firebaseConfig = {
@@ -14,23 +15,23 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
+const auth = getAuth(app);
 
 
 const Signup = () => {
-  const auth = getAuth(app);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const handleSignUp = async (e) => {
     e.preventDefault();
-
-    try {
-      await createUserWithEmailAndPassword(auth, email, password);
-      console.log('Signed up successfully!');
-    } catch (error) {
-      console.error('Error signing up:', error.message);
-    }
+    console.log(email,password);
+    createUserWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          
+        })
+        .catch((error) => {
+            console.error(error.message)
+        })
   };
 
   return (
@@ -60,7 +61,8 @@ const Signup = () => {
                   id="floatingPassword"
                   placeholder="Password"
                   value={password}
-                  onChange={(e) => setPassword(e.target.value)}
+                  onChange={(e) => {setPassword(e.target.value)
+                                    }}
                 />
                 <label htmlFor="floatingPassword">Password</label>
               </div>
@@ -68,7 +70,7 @@ const Signup = () => {
                 Sign up
               </button>
               <p className="mt-3 text-body-primary text-center">
-                already have an account? <a href="#" className="text-info">Login</a>
+                already have an account? <Link to="/login" className="text-info">Login</Link>
               </p>
             </form>
           </main>

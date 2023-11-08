@@ -104,12 +104,12 @@ const Footer = () => {
             <h5>About US</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-white">
+                <a href="#aim" className="nav-link p-0 text-white">
                   Aim
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-white">
+                <a href="#vision" className="nav-link p-0 text-white">
                   Vision
                 </a>
               </li>
