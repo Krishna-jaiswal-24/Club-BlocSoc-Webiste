@@ -15,7 +15,7 @@ const auth = getAuth(app);
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [isSignup, setIsSignup] = useState(true); // state to track login/signup mode
+  const [isSignup, setIsSignup] = useState(false); // state to track login/signup mode
   const navigate = useNavigate();
 
   const handleSignUp = async (e) => {
@@ -23,7 +23,6 @@ const Login = () => {
     console.log(email, password);
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
-        // Signed in
         const user = userCredential.user;
         console.log(user);
         navigate("/events");
@@ -83,7 +82,7 @@ const Login = () => {
                   />
                   <label htmlFor="floatingPassword">Password</label>
                 </div>
-                <button className="btn btn-primary w-100 py-2" type="submit">
+                <button className="btn btn-primary w-100 py-2 mt-2" type="submit">
                   {isSignup ? "Sign up" : "Log in"}
                 </button>
                 <p className="mt-3 text-body-primary text-center">
