@@ -87,20 +87,20 @@ const Footer = () => {
         </div>
       </div>
       <div className="container">
-        <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top text-white justify-content-center">
-          <div className="col mb-3">
+        <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 text-center border-top text-white justify-items-center align-items-center">
+          <div className="col mb-3 ">
             <a
               href="/"
-              className="d-flex align-items-center mt-0 link-body-emphasis text-decoration-none"
+              className="d-flex align-items-center justify-content-center mt-0 link-body-emphasis text-decoration-none"
             >
               <img src={HeroImg} height={150} />
             </a>
           </div>
 
-          <div className="col mb-3"></div>
+          <div className="col-sm-3 mb-3"></div>
 
-          <div className="col mb-3 text-white">
-            <h5>About US</h5>
+          <div className="col mb-3 text-center text-white">
+            <h3>About Us</h3>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <a href="#aim" className="nav-link p-0 text-white">
