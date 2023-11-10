@@ -1,10 +1,10 @@
 import React from "react";
-import Footer from '../../components/Footer'
+import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import Logo from "../../assests/Bloc.png";
 import "./team.css";
 import Profiles from "./Profiles";
-
+import teamData from "./teamData";
 
 const Team = () => {
   return (
@@ -15,7 +15,10 @@ const Team = () => {
           <div>
             <img src={Logo} height={50} />
           </div>
-          <h1 id="aim" class="display-4 text-body-white font-weight-bolder pt-5">
+          <h1
+            id="aim"
+            class="display-4 text-body-white font-weight-bolder pt-5"
+          >
             <b>Aim</b>
           </h1>
           <p class="col-lg-8 mx-auto fs-5 text-white">
@@ -40,28 +43,25 @@ const Team = () => {
             <span className="text-info">positive impact</span> on society
             through blockchain technology.
           </p>
-          <h1 class="display-4 text-body-white font-weight-bolder">
+          <h1 class="display-4 text-body-white p-4 font-weight-bolder">
             <b>Team</b>
           </h1>
         </div>
       </div>
       <div className="container d-flex flex-wrap p-6 justify-content-center">
-        <Profiles />
-        <Profiles />
-        <Profiles />
-        <Profiles />
-        <Profiles />
-        <Profiles />
-        <Profiles />
-        <Profiles />
-        <Profiles />
-        <Profiles />
-        <Profiles />
-        <Profiles />
-        <Profiles />
-        <Profiles />
-        <Profiles />
+        {teamData.map((member) => (
+          <Profiles
+            key={member.index}
+            imageSrc={member.imageSrc}
+            title={member.title}
+            name={member.name}
+            twitter={member.twitter}
+            instagram={member.instagram}
+            linkedin={member.linkedin}
+          />
+        ))}
       </div>
+
       <Footer />
     </div>
   );
