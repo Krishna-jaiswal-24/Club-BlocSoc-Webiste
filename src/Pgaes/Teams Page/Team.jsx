@@ -10,7 +10,7 @@ const Team = () => {
   return (
     <div>
       <Navbar />
-      <div class="container my-5">
+      <div class="container mt-5 py-0">
         <div class="p-5 text-center bg-body-dark rounded-3 text-white">
           <div>
             <img src={Logo} height={50} />
